@@ -1,0 +1,76 @@
+/* reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  outline: 0;
+  text-decoration: none;
+  color: #555;
+}
+
+img {
+  border: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "valorant", "Black Han Sans", sans-serif;
+  color: #555;
+}
+
+/* 전체 크기 레이아웃 */
+
+header {
+  display: grid;
+  justify-items: center;
+  background-color: salmon;
+  position: fixed;
+  width: 15%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: all 0.2s;
+}
+
+.logo {
+  width: 100%;
+  height: 15vh;
+}
+
+.logo a {
+  width: 100%;
+  height: 100%;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  /*background-image: url("./img/V_Lockup_Horizontal_Neg_Red.png");
+  background-position: center;
+  background-size: cover; */
+  overflow: hidden;
+  object-fit: cover;
+}
+
+nav {
+  width: 85%;
+  background-color: slateblue;
+  position: relative;
+  margin-left: 15%;
+}
+
+.main {
+  background-color: khaki;
+  position: relative;
+  width: 85%;
+  height: 95%;
+  margin-left: 15%;
+}
