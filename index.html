@@ -3,27 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- 발로란트 폰트 알파벳 CDN -->
-    <link
-      href="https://fonts.cdnfonts.com/css/valorant"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet" />
 
     <!-- 한글 발로란트 폰트 -->
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap"
       rel="stylesheet"
@@ -45,43 +32,57 @@
     />
 
     <!-- 스타일, 프리픽스 -->
-    <link rel="stylesheet" href="style.css" />
-    <script src="prefixfree.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./prefixfree.min.js"></script>
     <title>발로란트</title>
   </head>
   <body>
     <header>
       <div class="logo">
-        <a href="#">
-          <!-- <div
-            class="bgimg"
-            src="img/V_Lockup_Horizontal_Neg_Red.png"
-            alt="VALORANT logo"
-          ></div> -->
-          <img src="img/V_Lockup_Horizontal_Neg_Red.png" />
+        <a href="index.html">
+          <img src="img/logo/V_Lockup_Horizontal_Neg_Red.png" />
         </a>
       </div>
 
       <div class="menu">
         <ul>
-          <li>
-            <a
-              href="https://playvalorant.com/ko-kr/agents/"
-              target="_blank"
+          <li class="agent">
+            <a href="https://playvalorant.com/ko-kr/agents/" target="_blank"
               >요원</a
             >
+            <ul class="agentlist">
+              <li class="jett">
+                <a href="#"> 제트 </a>
+              </li>
+              <li class="raze">레이즈</li>
+              <li class="breach">브리치</li>
+              <li class="omen">오멘</li>
+              <li class="brimstone">브림스톤</li>
+              <li class="phoenix">피닉스</li>
+              <li class="sage">세이지</li>
+              <li class="sova">소바</li>
+              <li class="viper">바이퍼</li>
+              <li class="cypher">사이퍼</li>
+              <li class="reyna">레이나</li>
+              <li class="killjoy">킬조이</li>
+              <li class="skye">스카이</li>
+              <li class="yoru">요루</li>
+              <li class="astra">아스트라</li>
+              <li class="kay-o">케이/오</li>
+              <li class="chamber">체임버</li>
+              <li class="neon">네온</li>
+              <li class="fade">페이드</li>
+              <li class="harbor">하버</li>
+              <li class="gekko">게코</li>
+            </ul>
           </li>
           <li>
-            <a
-              href="https://playvalorant.com/ko-kr/media/"
-              target="_blank"
+            <a href="https://playvalorant.com/ko-kr/media/" target="_blank"
               >미디어</a
             >
           </li>
           <li>
-            <a
-              href="https://playvalorant.com/ko-kr/news/"
-              target="_blank"
+            <a href="https://playvalorant.com/ko-kr/news/" target="_blank"
               >소식</a
             >
           </li>
@@ -96,58 +97,53 @@
       </div>
 
       <div class="social">
-        <ul>
-          <li>
-            <a
-              href="https://www.facebook.com/VALORANTKR/"
-              target="_blank"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://twitter.com/playvalorant"
-              target="_blank"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://www.secure.instagram.com/accounts/login/?next=/valorantkr/%3Fhl%3Dde"
-              target="_blank"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://discord.com/invite/valorantkr"
-              target="_blank"
-              ><i class="fa-brands fa-discord"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/channel/UC9M8GGVwPqc9ubNruArCNPg"
-              target="_blank"
-              ><i class="fa-brands fa-youtube"></i
-            ></a>
-          </li>
-        </ul>
+        <div>
+          <a href="https://www.facebook.com/VALORANTKR/" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+
+        <div>
+          <a href="https://twitter.com/playvalorant" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+
+        <div>
+          <a
+            href="https://www.secure.instagram.com/accounts/login/?next=/valorantkr/%3Fhl%3Dde"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+
+        <div>
+          <a href="https://discord.com/invite/valorantkr" target="_blank"
+            ><i class="fa-brands fa-discord"></i
+          ></a>
+        </div>
+
+        <div>
+          <a
+            href="https://www.youtube.com/channel/UC9M8GGVwPqc9ubNruArCNPg"
+            target="_blank"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
       </div>
     </header>
 
     <nav>
-      <ul>
-        <li>
-          <a href="#">langauge</a>
-        </li>
-        <li>
-          <a href="#">sign up</a>
-        </li>
-        <li>
-          <a href="#">log in</a>
-        </li>
-      </ul>
+      <div>
+        <a href="#">langauge</a>
+      </div>
+      <div></div>
+      <div>
+        <a href="#">sign up</a>
+      </div>
+      <div>
+        <a href="#">log in</a>
+      </div>
     </nav>
 
     <div class="main">
@@ -155,6 +151,17 @@
         <div class="item vod">vod</div>
         <div class="item img">img</div>
         <div class="item text">text</div>
+        <div class="item img">img</div>
+        <div class="item img large">img large</div>
+        <div class="item text">text</div>
+        <div class="item text large">text large</div>
+        <div class="item text">text</div>
+        <div class="item img">img</div>
+        <div class="item text large">text large</div>
+        <div class="item text">text</div>
+        <div class="item img">img</div>
+        <div class="item text large">text large</div>
+        <div class="item img large">img large</div>
       </div>
     </div>
   </body>
